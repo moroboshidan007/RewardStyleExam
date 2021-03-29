@@ -6,4 +6,9 @@
     <string name="parse">Parse</string>
     <string name="file_name_empty">Please enter a file name!</string>
     <string name="invalid_file_name">Please enter a json file name!</string>
+
+    <string name="back">Back</string>
+    <string name="id">ID</string>
+    <string name="list_id">List ID</string>
+    <string name="name">Name</string>
 </resources>
