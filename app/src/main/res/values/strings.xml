@@ -4,4 +4,6 @@
     <string name="file_name_prompt">Please input the file name:</string>
     <string name="default_file_name">https://fetch-hiring.s3.amazonaws.com/hiring.json</string>
     <string name="parse">Parse</string>
+    <string name="file_name_empty">Please enter a file name!</string>
+    <string name="invalid_file_name">Please enter a json file name!</string>
 </resources>
