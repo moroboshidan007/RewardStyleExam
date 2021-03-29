@@ -1,4 +1,4 @@
-package com.example.rewardstyleexam.result;
+package com.example.rewardstyleexam.result.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
