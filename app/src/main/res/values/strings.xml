@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Reward Style Exam</string>
+
+    <string name="file_name_prompt">Please input the file name:</string>
+    <string name="default_file_name">https://fetch-hiring.s3.amazonaws.com/hiring.json</string>
+    <string name="parse">Parse</string>
 </resources>
