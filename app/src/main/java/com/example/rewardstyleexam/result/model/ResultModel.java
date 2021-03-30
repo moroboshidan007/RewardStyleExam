@@ -13,9 +13,11 @@ import java.util.Comparator;
 public class ResultModel {
 
     private ArrayList<HiringItem> mList;
+    private ResultModelListener mListener;
 
-    public ResultModel() {
+    public ResultModel(ResultModelListener listener) {
         mList = new ArrayList<>();
+        mListener = listener;
     }
 
     public void readJSON(String json) {
@@ -43,8 +45,8 @@ public class ResultModel {
                             }
                         }
                     });
+                    mListener.updateAdapter(mList);
                 }
-
             }
         } catch (JSONException e) {
             e.printStackTrace();
